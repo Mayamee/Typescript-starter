@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon app/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
